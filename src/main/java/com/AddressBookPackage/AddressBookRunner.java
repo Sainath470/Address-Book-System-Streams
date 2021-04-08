@@ -1,3 +1,4 @@
+package com.AddressBookPackage;
 import java.util.*;
 
 public class AddressBookRunner {
@@ -27,8 +28,8 @@ public class AddressBookRunner {
                     } else {
                         System.out.println("Address Book is not present");
                     }
+                    System.out.println(addressBookMap.toString());
                     break;
-
                 default:
                     isExit = true;
                     break;
