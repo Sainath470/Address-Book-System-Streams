@@ -14,8 +14,7 @@ public class AddressBook {
         boolean isExit = false;
 
         while (!isExit) {
-            System.out
-                    .println("PLEASE SELECT\nPRESS 1 ADDING PERSON\nPRESS 2 EXIT");
+            System.out.println("PLEASE SELECT\nPRESS 1 ADDING PERSON\nPRESS 2 EXIT");
             int choice = scanner.nextInt();
             switch (choice) {
                 case 1:
