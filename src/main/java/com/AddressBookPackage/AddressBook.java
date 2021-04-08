@@ -23,7 +23,6 @@ public class AddressBook {
                     }
                     System.out.println(personList.toString());
                     break;
-
                 case 2:
                     System.out.println("Please enter name to update");
                     Person person1 = findPerson(getName());
