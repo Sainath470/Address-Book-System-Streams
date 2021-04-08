@@ -14,7 +14,7 @@ public class AddressBook {
         boolean isExit = false;
 
         while (!isExit) {
-            System.out.println("PLEASE SELECT\nPRESS 1 ADDING PERSON\nPRESS 2 FOR EDITING PERSON\nPRESS 3 FOR EXIT");
+            System.out.println("PLEASE SELECT\nPRESS 1 ADDING PERSON\nPRESS 2 FOR EDITING PERSON\nPRESS 3 FOR DELETING PERSON\nPRESS 4 FOR EXIT");
             int choice = scanner.nextInt();
             switch (choice) {
                 case 1:
@@ -29,6 +29,15 @@ public class AddressBook {
                     Person person1 = findPerson(getName());
                     if(person1 != null){
                         editDetails(person1);
+                    }
+                    System.out.println(personList.toString());
+                    break;
+
+                case 4:
+                    System.out.println("Please enter name to Delete");
+                    Person person = findPerson(getName());
+                    if (person != null){
+                        personList.remove(person);
                     }
                     System.out.println(personList.toString());
                     break;
