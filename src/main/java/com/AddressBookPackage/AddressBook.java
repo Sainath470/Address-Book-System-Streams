@@ -32,7 +32,6 @@ public class AddressBook {
                     }
                     System.out.println(personList.toString());
                     break;
-
                 case 4:
                     System.out.println("Please enter name to Delete");
                     Person person = findPerson(getName());
