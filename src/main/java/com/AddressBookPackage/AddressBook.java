@@ -39,7 +39,6 @@ public class AddressBook {
                     }
                     System.out.println(personList.toString());
                     break;
-
                 default:
                     isExit = true;
 
