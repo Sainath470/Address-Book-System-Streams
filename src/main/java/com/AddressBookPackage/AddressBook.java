@@ -1,7 +1,5 @@
 package com.AddressBookPackage;
-
 import java.util.*;
-
 public class AddressBook {
 
     private static Scanner scanner = new Scanner(System.in);
